@@ -32,10 +32,8 @@ struct ContentView: View {
                 Spacer()
                 
                 Button(action: {
-                    
                     self.leftDiceNumber = Int.random(in: 1...6)
                     self.rightDiceNumber = Int.random(in: 1...6)
-                    
                 }, label: {
                     Text("Roll")
                         .font(.system(size: 50))
